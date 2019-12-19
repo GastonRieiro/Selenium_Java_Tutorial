@@ -64,7 +64,7 @@ public class Tests {
 		login.login("mercury", "mercury");
 		reservation.assertReservationPage();
 	}
-	/*
+
 	@Test
 	public void pruebaTres() {
 		PageLogin login= new PageLogin(driver);
@@ -74,7 +74,6 @@ public class Tests {
 		reservation.selectFromPort(2);
 		reservation.selectToPort("London");
 	}
-	*/
 	
 	//Codigo que se ejecuta despues de los tests
 	@AfterMethod
